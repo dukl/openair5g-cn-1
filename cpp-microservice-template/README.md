@@ -129,15 +129,6 @@ To facilitate the development of micro-services, I developed a production enviro
 
 The skeleton that should (must ?) be used to start a micro-service development have to be downloaded from its repository and stored inside the folder **src** of the defined structure. See [the folders structure](#Structure-content).
 
-<pre>
-$ git clone ssh://gitolite@forge.b-com.com/new-edge/poc/microservice/cpp-microservice-template.git . && rm -rf .git .gitignore
-</pre>
-
-
-<u>Note 1</u> : Pay attention to the '.' (DOT) character leading the git clone command line. This is needed to avoid the folder download (cpp-microservice-template). In another words, the '.' character ask git to download the content of the repository without its folder container.
-
-
-<u>Note 2</u> : The rm command is needed to avoid to track modifications on this repository. The only thing we want is to start with the content of this code template as a skeleton for a new micro-service. It would be more elegant to download a tar file and extract it in place instead but up to now, no download is available on the forge.
 
 
 ### Structure content
